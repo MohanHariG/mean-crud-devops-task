@@ -168,7 +168,9 @@ DOCKERHUB_TOKEN	Your Docker access token
 SSH_HOST	EC2 Public IP
 SSH_USER	ubuntu
 SSH_KEY	Content of your .pem file
-🖼️ Screenshots Required (Insert Below)
+
+🖼️ Screenshots
+
 1️⃣ GitHub Repository Structure
 
 ![Screenshots](screenshots/project-structure.png)
