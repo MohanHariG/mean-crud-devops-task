@@ -21,7 +21,7 @@ services:
       - mongo
 
   frontend:
-    image: mohanharig/mean-frontend:latest
+    image: YOUR_DOCKERHUB_USERNAME/mean-frontend:latest
     container_name: mean-frontend
     restart: always
     depends_on:
