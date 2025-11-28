@@ -81,7 +81,7 @@ services:
       - "27017:27017"
 
   backend:
-    image: mohanharig/mean-backend:latest
+    image: ******/mean-backend:latest
     container_name: mean-backend
     restart: always
     environment:
@@ -91,7 +91,7 @@ services:
       - mongo
 
   frontend:
-    image: mohanharig/mean-frontend:latest
+    image: *****/mean-frontend:latest
     container_name: mean-frontend
     restart: always
     depends_on:
@@ -171,7 +171,6 @@ SSH_KEY	Content of your .pem file
 🖼️ Screenshots Required (Insert Below)
 1️⃣ GitHub Repository Structure
 
-(Screenshot)
 
 2️⃣ Dockerfiles (Backend & Frontend)
 
