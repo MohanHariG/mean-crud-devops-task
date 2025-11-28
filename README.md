@@ -20,11 +20,16 @@ This README explains the architecture, setup steps, commands used, and screensho
 📁 Project Structure
 crud-dd-task-mean-app/
 │
-├── backend/            # Node.js + Express API
+├── backend/     # Node.js + Express API
+
 ├── frontend/           # Angular Application
+
 ├── nginx/
+
 │   └── default.conf    # Nginx Reverse Proxy Config
+
 ├── docker-compose.yml  # Multi-container Deployment
+
 └── README.md
 
 🏗️ Architecture Overview
@@ -113,6 +118,7 @@ volumes:
   mongo-data:
 
 ☁️ EC2 Deployment
+
 1️⃣ Spin up an EC2 instance
 
 Instance Type: t3.micro or t3.small
@@ -126,6 +132,7 @@ SSH (22)
 HTTP (80)
 
 2️⃣ Install Docker + Docker Compose
+
 sudo apt update
 sudo apt install docker.io -y
 sudo usermod -aG docker $USER
@@ -133,6 +140,7 @@ exit  # Log out and login again
 sudo apt install docker-compose-plugin -y
 
 🚀 Deploy Application
+
 cd ~/mean-crud-devops-task/crud-dd-task-mean-app
 docker compose pull
 docker compose up -d
