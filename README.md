@@ -171,49 +171,55 @@ SSH_KEY	Content of your .pem file
 🖼️ Screenshots Required (Insert Below)
 1️⃣ GitHub Repository Structure
 
+![Screenshots](screenshots/project-structure.png)
 
 2️⃣ Dockerfiles (Backend & Frontend)
 
-(Screenshot)
+![Screenshots](screenshots/docker-images.png)
+
+![Screenshots](screenshots/docker-image-1.png)
 
 3️⃣ Nginx Config
 
-(Screenshot)
+![Screenshots](screenshots/nginx-default-config-file.png)
 
 4️⃣ docker-compose.yml
 
-(Screenshot)
+![Screenshots](screenshots/docker-compose-yml.png)
 
 5️⃣ Docker Hub Images
 
 mean-backend:latest
 
+![screenshots](screenshots/docker-logs-mean-backend.png)
+
 mean-frontend:latest
-(Screenshot)
 
-6️⃣ GitHub Actions Workflow
+![screenshots](screenshots/docker-logs-mean-frontend.png)
 
-(Screenshot)
+6️⃣ Docker Backend Image
 
-7️⃣ GitHub Actions Successful Run
+![screenshots](screenshots/mean-backend-docker-image.png)
 
-(Screenshot)
+7️⃣ Docker Frontend Image
+
+![screenshots](screenshots/mean-frontend-docker-image.png)
 
 8️⃣ EC2 Dashboard
 
-(Screenshot)
+![screenshots](screenshots/running-instance.png)
 
 9️⃣ SSH into EC2 (Terminal View)
 
-(Screenshot)
+![screenshots](screenshots/ssh-into-ec2.png)
 
 🔟 docker ps on EC2
 
-(Screenshot)
+![screenshots](screenshots/docker-ps.png)
 
 1️⃣1️⃣ App Running in Browser
 
-(Screenshot)
+![screenshots](screenshots/app-running-on-browser.png)
 
 🎯 How to Access the App
 http://<EC2_PUBLIC_IP>/
