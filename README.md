@@ -162,10 +162,15 @@ GitHub Actions workflow file:
 Workflow does:
 
 ✔ Build backend image
+
 ✔ Build frontend image
+
 ✔ Push to Docker Hub
+
 ✔ SSH into EC2
+
 ✔ Pull latest images
+
 ✔ Restart containers
 
 You must add these secrets:
@@ -181,55 +186,55 @@ SSH_KEY	Content of your .pem file
 
 1️⃣ GitHub Repository Structure
 
-![Screenshots](screenshots/project-structure.png)
+![Screenshots](screenshots/project structure.png)
 
 2️⃣ Dockerfiles (Backend & Frontend)
 
-![Screenshots](screenshots/docker-images.png)
+![Screenshots](screenshots/docker images.png)
 
-![Screenshots](screenshots/docker-image-1.png)
+![Screenshots](screenshots/docker image 1.png)
 
 3️⃣ Nginx Config
 
-![Screenshots](screenshots/nginx-default-config-file.png)
+![Screenshots](screenshots/nginx default config file.png)
 
 4️⃣ docker-compose.yml
 
-![Screenshots](screenshots/docker-compose-yml.png)
+![Screenshots](screenshots/docker compose yml.png)
 
 5️⃣ Docker Hub Images
 
 mean-backend:latest
 
-![screenshots](screenshots/docker-logs-mean-backend.png)
+![screenshots](screenshots/docker logs mean backend.png)
 
 mean-frontend:latest
 
-![screenshots](screenshots/docker-logs-mean-frontend.png)
+![screenshots](screenshots/docker logs mean frontend.png)
 
 6️⃣ Docker Backend Image
 
-![screenshots](screenshots/mean-backend-docker-image.png)
+![screenshots](screenshots/mean backend docker image.png)
 
 7️⃣ Docker Frontend Image
 
-![screenshots](screenshots/mean-frontend-docker-image.png)
+![screenshots](screenshots/mean frontend docker image.png)
 
 8️⃣ EC2 Dashboard
 
-![screenshots](screenshots/running-instance.png)
+![screenshots](screenshots/running instance.png)
 
 9️⃣ SSH into EC2 (Terminal View)
 
-![screenshots](screenshots/ssh-into-ec2.png)
+![screenshots](screenshots/ssh into ec2.png)
 
 🔟 docker ps on EC2
 
-![screenshots](screenshots/docker-ps.png)
+![screenshots](screenshots/docker ps.png)
 
 1️⃣1️⃣ App Running in Browser
 
-![screenshots](screenshots/app-running-on-browser.png)
+![screenshots](screenshots/app running on browser.png)
 
 🎯 How to Access the App
 http://<EC2_PUBLIC_IP>/
